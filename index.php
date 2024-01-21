@@ -54,23 +54,15 @@
    <!-- Info error -->
    <div class="box-title">
     <h3 class="panel-title alert alert-primary font-monospace">Die - <span class="badge bg-danger die">0</span></h3>
-   </div>
-   <div class="box-body">
-    <div class="box-content alert alert-danger">
-     <div class="panel-body danger"></div>
-    </div>
-   </div>
-   
+
     <!-- Info unknown -->
       <div class="box-title">
       <h3 class="panel-title alert alert-primary font-monospace">Unknown - <span class="badge bg-warning unknown">0</span></h3>
       </div>
-      <div class="box-body">
-        <div class="box-content alert alert-warning">
-          <div class="panel-body warning"></div>
-        </div>
-      </div>
-  </form>
+
+     <!-- Info error -->
+   <div class="box-title">
+    <h3 class="panel-title alert alert-primary font-monospace">Telegram @apkmoddeddotclick - <span class="badge bg-success live">0</span></h3>
 
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
