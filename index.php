@@ -35,8 +35,8 @@
       <textarea class="form-control" rows="10" id="cc" name="cc" title="53012724539xxxxx|05|2022|653" placeholder="53012724539xxxxx|05|2022|653" required></textarea>
      </div>
      <div class="button text-center mb-3 mt-3">
-      <button type="submit" name="valid" class="btn btn-outline-success text-light">START</button>
-      <button type="button" id="stop" class="btn btn-outline-danger text-light" disabled>STOP</button>
+     <button type="submit" name="valid" class="btn btn-success">START</button>
+     <button type="button" id="stop" class="btn btn-danger" disabled>STOP</button>
      </div>
     </div>
    </div>
