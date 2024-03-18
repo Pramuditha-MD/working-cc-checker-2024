@@ -9,19 +9,19 @@ html, body {
 
 body {
   font-family: Inter, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px; /* Slightly increased font size for better readability */
   line-height: 1.6;
   color: #333; /* Darkened text color for better contrast */
   background: #f7f7f7; /* Light background color */
   height: 100vh; /* Using viewport height for full-screen layout */
-  display: flex; /* Using flexbox for layout */
-  justify-content: center; /* Center aligning content horizontally */
-  align-items: center; /* Center aligning content vertically */
+  display: auto; /* Using flexbox for layout */
+  justify-content: auto; /* Center aligning content horizontally */
+  align-items: auto; /* Center aligning content vertically */
 }
 
 .container {
-  max-width: 800px; /* Setting maximum width for better content readability */
+  max-width: 1080px; /* Setting maximum width for better content readability */
   padding: 2rem; /* Adding padding to the container for spacing */
   background: #fff; /* White background for the container */
   border-radius: 8px; /* Adding rounded corners for a modern look */
@@ -45,4 +45,42 @@ a {
 
 a:hover {
   color: #0056b3; /* Darkening link color on hover */
+}
+
+/* Style for the button container */
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for the START button */
+.btn-success {
+  background-color: #28a745; /* Green */
+  color: #fff; /* White text */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Style for the STOP button */
+.btn-danger {
+  background-color: #f10920; /* Red */
+  color: #fff; /* White text */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: not-allowed; /* Disabled cursor */
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:disabled {
+  opacity: 0.2; /* Reduce opacity when disabled */
 }
