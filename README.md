@@ -33,7 +33,7 @@ Note: You can use any hosting.
 ## 🤗 Contact Me :
 
 
-• For any Support About Script contact [issues](https://github.com/OshekharO/MASS-CC-CHECKER/issues/new)
+• For any Support About Script contact @requestcenterr
 
 ---
 
