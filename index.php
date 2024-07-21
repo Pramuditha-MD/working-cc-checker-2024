@@ -26,11 +26,11 @@
  </head>
 
  <body>
-  <div class="fs-3 fw-bold mb-5 text-uppercase mx-auto text-center text-light">Credit Card Checker</div>
+  <div class="fs-3 fw-bold mb-5 text-uppercase mx-auto text-center text-light">2359736247514096</div>
   <form method="post" action="api.php" role="form" id="form">
    <div class="box-body">
     <div class="box-content">
-     <label for="cc" class="form-label fs-6 font-monospace badge bg-danger text-light">Card Numbers</label>
+     <label for="cc" class="form-label fs-6 font-monospace badge bg-danger text-light">2359736247514096</label>
      <div>
       <textarea class="form-control" rows="10" id="cc" name="cc" title="53012724539xxxxx|05|2022|653" placeholder="53012724539xxxxx|05|2022|653" required></textarea>
      </div>
